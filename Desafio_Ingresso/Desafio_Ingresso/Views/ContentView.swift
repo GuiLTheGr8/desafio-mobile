@@ -13,7 +13,7 @@ struct ContentView: View {
     //Hmmm... o que acontece se mudar isso aqui pra true? 👀
     @State static var 🌎🎵 = false
     
-    @State private var isLoading = false
+    @State var isLoading = false
     @EnvironmentObject var viewModel: ViewModel
     
     init() {

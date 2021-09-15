@@ -21,6 +21,7 @@
 		675A078226F0B77F00A94D35 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 675A078126F0B77F00A94D35 /* song.mp3 */; };
 		675A078426F0B9C900A94D35 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675A078326F0B9C900A94D35 /* AudioPlayer.swift */; };
 		675A078C26F0FFB700A94D35 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 675A078B26F0FFB700A94D35 /* SDWebImageSwiftUI */; };
+		675A078F26F1776E00A94D35 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 675A078E26F1776E00A94D35 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				675A078C26F0FFB700A94D35 /* SDWebImageSwiftUI in Frameworks */,
+				675A078F26F1776E00A94D35 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +199,7 @@
 			name = Desafio_Ingresso;
 			packageProductDependencies = (
 				675A078B26F0FFB700A94D35 /* SDWebImageSwiftUI */,
+				675A078E26F1776E00A94D35 /* ViewInspector */,
 			);
 			productName = Desafio_Ingresso;
 			productReference = 675A073F26EEC3E900A94D35 /* Desafio_Ingresso.app */;
@@ -271,6 +274,7 @@
 			mainGroup = 675A073626EEC3E900A94D35;
 			packageReferences = (
 				675A078A26F0FFB700A94D35 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				675A078D26F1776E00A94D35 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = 675A074026EEC3E900A94D35 /* Products */;
 			projectDirPath = "";
@@ -652,6 +656,14 @@
 				minimumVersion = 2.0.2;
 			};
 		};
+		675A078D26F1776E00A94D35 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -659,6 +671,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 675A078A26F0FFB700A94D35 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		675A078E26F1776E00A94D35 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 675A078D26F1776E00A94D35 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
